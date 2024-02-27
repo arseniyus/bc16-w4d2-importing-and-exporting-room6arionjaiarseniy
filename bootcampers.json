@@ -1,20 +1,22 @@
+
+
 [
   {
-    "firstName": "Arion",
-    "lastName": "King",
-    "age": 27,
-    "hasPets": true
-  },
-  {
-    "firstName": "Arseniy",
-    "lastName": "Panin",
-    "age": 26,
-    "hasPets": true
-  },
-  {
-    "firstName": "Jai",
-    "lastName": "Shailer",
-    "age": 31,
-    "hasPets": true
-  }
+  "firstName": "Arion",
+  "lastName": "King",
+  "age": 27,
+  "hasPets": true
+},
+{
+  "firstName": "Arseniy",
+  "lastName": "Panin",
+  "age": 26,
+  "hasPets": true
+},
+{
+  "firstName": "Jai",
+  "lastName": "Shailer",
+  "age": 31,
+  "hasPets": true
+}
 ]

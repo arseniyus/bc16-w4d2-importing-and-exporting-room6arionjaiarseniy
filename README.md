@@ -80,7 +80,7 @@ You have a list of bootcampers.
 
 Now you're going to create a helper function that you can export and use/reuse in your Node.js app later.
 
-Create a `bootcamper.js` file in the root of your project.
+Create a `bootcampers.js` file in the root of your project.
 
 Inside `bootcampers.js` create a function named `introduce`.
 
