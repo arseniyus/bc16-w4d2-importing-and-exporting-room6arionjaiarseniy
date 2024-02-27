@@ -28,4 +28,6 @@ function introduce(e) {
     return`Hi, my name is ${e.firstName} ${e.lastName}. I'm ${e.age} years old and I have no pets.`
   }
 } 
-console.log(introduce(bootcampers[2]))
+console.log(introduce(bootcampers[2]));
+
+export default introduce;
