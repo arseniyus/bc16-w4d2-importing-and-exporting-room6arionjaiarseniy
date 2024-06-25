@@ -7,13 +7,15 @@
 // create variables to store each bootcamper in
 // call the function
 
-import data from './bootcampers.json' with { "type": "json" }
-import introduce from './bootcampers.js'
+import bootcampers from "./bootcampers.json" with { type: "json"};
+import { introduce } from "./bootcampers.js";
 
-const arion = data[0]
-const arseniy = data[1]
-const jai = data[2]
+let bootcamperData = bootcampers
 
+const arseniy = bootcamperData[0];
+const jai = bootcamperData[1]
+const arion = bootcamperData[2]
+
+console.log(introduce(arseniy));
 console.log(introduce(jai));
 console.log(introduce(arion));
-console.log(introduce(arseniy));
