@@ -8,7 +8,7 @@
 // call the function
 
 import bootcampers from "./bootcampers.json" with { type: "json"};
-import { introduce } from "./bootcampers.js";
+import { introduce, pickRandomBootcamper } from "./bootcampers.js";
 
 let bootcamperData = bootcampers
 
@@ -19,3 +19,5 @@ const arion = bootcamperData[2]
 console.log(introduce(arseniy));
 console.log(introduce(jai));
 console.log(introduce(arion));
+
+console.log(pickRandomBootcamper(bootcamperData));

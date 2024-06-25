@@ -10,18 +10,31 @@ export function introduce(bootcamper) {
   }
 }
 
+
+export function pickRandomBootcamper(bootcamper) {
+  // pick a random bootcamper
+  // pick a random object from an array
+  // convert it to a number
+  const random = Math.floor(Math.random() * bootcamper.length);
+  const randomBootcamper = bootcamper[random];
+  // console.log it
+  // return it
+  //console.log(randomBootcamper);
+    return randomBootcamper
+}
+
 // export bootcampers
 // import botocampers
 // create export function introduce which will console.log this string:
 // ""Hi, my name is John Doe. I'm 32 years old and I have no pets.
 // {$ } for names, ages, and pets.
 
-console.log(
-  introduce({
-    firstName: "Tom",
-    lastName: "Pauley",
-    age: "29",
-    hasPets: true
-  })
-)
+// console.log(
+//   introduce({
+//     firstName: "Tom",
+//     lastName: "Pauley",
+//     age: "29",
+//     hasPets: true
+//   })
+// )
 
